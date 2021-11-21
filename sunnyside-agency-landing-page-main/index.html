@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style> -->
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div>
+        <h3>Sunnyside</h3>
+      </div>
+      <div class="nav_links" >
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+      </div>
+      <!-- hamburger menu bar for list of links on click -->
+      <div class="empt_container" onclick="myMobileMenu()">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+    </nav>
+    <ul id="mobileNav" class="mobile-nav">
+      <div class="moblie-links">
+        <a href="#">About</a>
+      </div>
+      <div class="mobile-links">
+        <a href="#">Services</a>
+      </div>
+      <div class="mobile-links">
+        <a href="#">Projects</a>
+      </div>
+      <div class="mobile-links">
+        <span><a href="#">Contact</a></span>
+      </div>
+    </ul>
+    <h1>WE ARE CREATIVES</h1>
+  </header>
+  <div class="container">
+    <div class="inner_container">
+      <div class="content">
+        <div class="heading">
+          <h2>Transform your brand</h2>
+        </div>
+        <p>We are a full-service creative agency specializing in helping brands grow fast.
+          Engage your clients through compelling visuals that do most of the marketing for you.</p>
+        <button>
+          <a href="#">Learn more</a>
+        </button>
+      </div>
+    </div>
+    <div class="transform">
+      <img class="transform-image" src="../sunnyside-agency-landing-page-main/images/desktop/image-transform.jpg">
+    </div>
+  </div>
+  <div class="contain">
+    <div class="transform">
+      <img class="transform-image" src="../sunnyside-agency-landing-page-main/images/desktop/image-stand-out.jpg">
+    </div>
+    <div class="inner_container">
+      <div class="content">
+        <div class="heading">
+          <h2>Stand out to the right audience</h2>
+        </div>
+        <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll
+          build
+          and extend your brand in digital places.</p>
+        <button>
+          <a href="#">Learn more</a>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="container_1">
+    <div class="graphic_design">
+      <div class="graphic_text">
+        <h4>Graphic design</h4>
+        <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures
+          potential
+          clients’ attention.</p>
+      </div>
+    </div>
+    <div class="photography">
+      <div class="graphic_text">
+        <h4>Photography</h4>
+        <p>Increase your credibility by getting the most stunning, high-quality photos that improve your
+          business image.</p>
+      </div>
+    </div>
+  </div>
+  <div class="client-testimonial">
+    <h5>Client testimonials</h5>
+    <div class="container_2">
+      <div class="client">
+        <div class="client_profile">
+          <img class="image" src="./images/image-emily.jpg">
+          <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always
+            hit.
+          </p>
+          <div class="client_position">
+            <h6>Emily R.</h6>
+            <span>Marketing Director</span>
+          </div>
+        </div>
+      </div>
+      <div class="client">
+        <div class="client_profile">
+          <img class="image" src="./images/image-thomas.jpg">
+          <p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and
+            enjoyable
+            experience.</p>
+          <div class="client_position">
+            <h6>Thomas S.</h6>
+            <span>Operating Officer</span>
+          </div>
+        </div>
+      </div>
+      <div class="client">
+        <div class="client_profile">
+          <img class="image" src="./images/image-jennie.jpg">
+          <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+          <div class="client_position">
+            <h6>Jennie F.</h6>
+            <span>Business Owner</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer_images">
+    <div>
+      <img class="footer_image" src="./images/desktop/image-gallery-milkbottles.jpg">
+    </div>
+    <div>
+      <img class="footer_image" src="./images/desktop/image-gallery-orange.jpg">
+    </div>
+    <div>
+      <img class="footer_image" src="./images/desktop/image-gallery-cone.jpg">
+    </div>
+    <div>
+      <img class="footer_image" src="./images/desktop/image-gallery-sugarcubes.jpg">
+    </div>
+  </div>
+  <div class="footer">
+    <h5>sunnyside</h5>
+    <div class="footer_links">
+      <div class="footer_link">
+        <a href="#"> About</a>
+      </div>
+      <div class="footer_link">
+        <a href="#">Service</a>
+      </div>
+      <div class="footer_link">
+        <a href="#">Projects</a>
+      </div>
+      <div class="footer_link">
+        <a href="#">Contact </a>
+      </div>
+    </div>
+    <div class="icon">
+      <div>
+        <a href="#"><img class="icon_logo" src="./images/icon-facebook.svg"></a>
+      </div>
+      <div>
+        <a href="#"><img class="icon_logo" src="./images/icon-instagram.svg"></a>
+      </div>
+      <div>
+        <a href="#"><img class="icon_logo" src="./images/icon-twitter.svg"></a>
+      </div>
+      <div>
+        <a href="#"><img class="icon_logo" src="./images/icon-pinterest.svg"></a>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/Usohps">Princewill Samuel Usoh</a>.
+    </div>
+  </div>
+
+
+  <script>
+
+    function myMobileMenu() {
+      var x = document.getElementById("mobileNav");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+
+  </script>
+</body>
+
+</html>

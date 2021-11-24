@@ -252,7 +252,9 @@ span{
     }
     .contain{
         width: 100%;
+        /* border:1px solid red; */
         flex-direction: column;
+        
     }
     .inner_container{
         width:100%;
@@ -263,8 +265,12 @@ span{
     }
     .transform{
         width:100%;
-        /* border:1px solid sandybrown; */
+        /* border:1px solid red; */
         overflow: hidden;
+    }
+    .transform-image{
+        width: 100%;
+        border: 1px solid red;
     }
     .container_1{
         width:100%;
@@ -274,9 +280,22 @@ span{
     }
     .graphic_design{
         width:100%;
+        /* border: 1px solid red; */
+        /* margin-top: 30px; */
+        padding: 50px;
+    }
+    .graphic_text{
+        max-width: 340px;
+        text-align: center;
+        /* border: 1px solid red; */
+        margin-top:50%;
+        padding: 20px;
+
     }
     .photography{
         width:100%;
+        padding: 50px;
+        /* border: 1px solid red; */
     }
     .container_2{
         width:100%;
